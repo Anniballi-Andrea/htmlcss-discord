@@ -1,0 +1,193 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*utilities*/
+
+
+
+
+.log_in {
+    padding-top: 20px;
+}
+
+header {
+    padding: 0.5rem 1rem;
+
+}
+
+.container {
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin: auto;
+    width: 60%;
+
+}
+
+.container_footer {
+
+    display: flex;
+    flex-direction: row;
+    align-items: left;
+    justify-content: space-around;
+    margin: auto;
+    width: 60%;
+
+}
+
+.container_f3 {
+
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: space-around;
+    margin: auto;
+    width: 60%;
+
+}
+
+.container_f2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+.head_page {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    width: 60%;
+}
+
+.debug {
+    border: 1px dashed;
+
+    header {
+        background-color: blue;
+        height: 75px;
+    }
+
+    /*debug header*/
+
+    .container {
+        border: 1px dashed;
+        background-color: brown;
+
+    }
+
+    .container_reverse {
+        border: 1px dashed;
+        background-color: brown;
+
+    }
+
+    main {
+        background-color: yellow;
+    }
+
+
+
+    .left {
+
+        background-color: blue;
+        padding-top: 250px;
+        padding-right: 700px;
+    }
+
+    .playsolder {
+        background-color: blue;
+        padding-top: 250px;
+        padding-right: 500px;
+
+    }
+
+    /*debug main*/
+
+    footer {
+        background-color: aquamarine;
+    }
+
+    .playsolder_icon {
+        display: flex;
+        flex-direction: row;
+
+
+    }
+
+    .icon {
+        padding-top: 25px;
+        padding-right: 25px;
+        background-color: chartreuse;
+        margin-right: 4%;
+        border: 1px dashed;
+
+
+
+    }
+
+    .container_footer {
+        background-color: cornflowerblue;
+
+    }
+
+    .container_f3 {
+        background-color: cornflowerblue;
+    }
+}
+
+    .right {}
+
+    .left {}
+
+    .nav_menu {
+        display: flex;
+        justify-content: space-between;
+        width: 35%;
+    }
+
+
+
+    .title {
+        padding-top: 80px;
+        text-align: center;
+        padding-bottom: 50px;
+
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        width: 60%;
+
+        h1 {
+            padding-bottom: 1rem;
+        }
+
+        p {
+            padding-bottom: 1rem;
+        }
+
+        button {
+            margin-right: 0.5rem;
+            margin-left: 0.5rem;
+        }
+
+    }
+
+
+    .container_reverse {
+
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+        justify-content: space-around;
+        margin: auto;
+        width: 60%;
+    }
