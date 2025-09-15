@@ -54,6 +54,7 @@ header {
     justify-content: space-around;
     margin: auto;
     width: 60%;
+    padding-top: 5rem;
     h2{
         color: #7289da;
     }
@@ -349,13 +350,19 @@ header {
     }
     
 }
-.speack{
-    display: flex;
-    img{
-        
+.speak{
+    p{
+        padding-top: 1rem;
     }
+    .social{
+        padding-top: 1rem;
+    }
+    
 }
 footer{
     background-color: #23272a;
 
+}
+.italy{
+    height: 12px;
 }
