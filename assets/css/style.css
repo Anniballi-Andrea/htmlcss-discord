@@ -4,20 +4,6 @@
     box-sizing: border-box;
 }
 
-/*utilities*/
-
-
-
-
-.log_in {
-    padding-top: 20px;
-}
-
-header {
-    padding: 0.5rem 1rem;
-
-}
-
 .container {
 
     display: flex;
@@ -28,6 +14,35 @@ header {
     width: 60%;
 
 }
+
+
+
+
+/*utilities*/
+
+
+
+
+.log_in {
+    padding-top: 20px;
+
+    button {
+        padding: 0.5rem 0.5rem;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+        border-bottom-left-radius: 15px;
+        border-bottom-right-radius: 15px;
+        border-width: 0;
+
+    }
+}
+
+header {
+    padding: 0.5rem 1rem;
+    background-color: #3161e0;
+
+}
+
 
 .container_footer {
 
@@ -112,6 +127,7 @@ header {
 
     /*debug main*/
 
+
     footer {
         background-color: aquamarine;
     }
@@ -144,50 +160,105 @@ header {
     }
 }
 
-    .right {}
+.jumbodrone {
+    background-image: url("../img/jumbo.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 220px;
 
-    .left {}
+}
 
-    .nav_menu {
-        display: flex;
-        justify-content: space-between;
-        width: 35%;
+.jumbodrone .container {
+    padding-top: 50px;
+
+    h1 {
+        color: white;
+        font-size: 3rem;
     }
 
-
-
-    .title {
-        padding-top: 80px;
-        text-align: center;
-        padding-bottom: 50px;
-
-        display: flex;
-        flex-direction: column;
-        margin: auto;
-        width: 60%;
-
-        h1 {
-            padding-bottom: 1rem;
-        }
-
-        p {
-            padding-bottom: 1rem;
-        }
-
-        button {
-            margin-right: 0.5rem;
-            margin-left: 0.5rem;
-        }
+    p {
+        color: white;
+        padding-top: 20px;
+        font-size: 1.2rem;
 
     }
 
-
-    .container_reverse {
-
-        display: flex;
-        flex-direction: row-reverse;
-        align-items: center;
-        justify-content: space-around;
-        margin: auto;
-        width: 60%;
+    .download_mac {
+        padding: 0.5rem 0.5rem;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+        border-bottom-left-radius: 15px;
+        border-bottom-right-radius: 15px;
+        border-width: 0;
+        font-size: 1.2rem;
+        color: black;
     }
+
+    .browser {
+        padding: 0.5rem 0.5rem;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+        border-bottom-left-radius: 15px;
+        border-bottom-right-radius: 15px;
+        border-width: 0;
+        color: white;
+        font-size: 1.2rem;
+        background-color: black;
+    }
+
+}
+
+.right {}
+
+.left {}
+
+.nav_menu {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    padding-top: 20px;
+
+    a {
+        color: white;
+        text-decoration: none;
+        padding-right: 1rem;
+    }
+}
+
+
+
+.title {
+    padding-top: 80px;
+    text-align: center;
+    padding-bottom: 50px;
+
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 60%;
+
+    h1 {
+        padding-bottom: 1rem;
+    }
+
+    p {
+        padding-bottom: 1rem;
+    }
+
+    button {
+        margin-right: 0.5rem;
+        margin-left: 0.5rem;
+    }
+
+}
+
+
+.container_reverse {
+
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-around;
+    margin: auto;
+    width: 60%;
+}
