@@ -54,6 +54,15 @@ header {
     justify-content: space-around;
     margin: auto;
     width: 60%;
+    h2{
+        color: #7289da;
+    }
+    p{
+        color: white;
+    }
+    h3{
+        color: #7289da;
+    }
 
 }
 
@@ -65,13 +74,23 @@ header {
     justify-content: space-around;
     margin: auto;
     width: 60%;
+    padding-top: 2rem;
 
 }
 
 .container_f2 {
+    padding-top: 2.5rem;
+    padding-bottom: 6rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    button{
+        padding: 0.5rem 0.5rem;
+        background-color: #8ea1e1;
+        border: 0px;
+        border-radius: 16px;
+        color: white;
+    }
 }
 
 
@@ -329,4 +348,14 @@ header {
         font-size: 1.5rem;
     }
     
+}
+.speack{
+    display: flex;
+    img{
+        
+    }
+}
+footer{
+    background-color: #23272a;
+
 }
